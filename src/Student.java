@@ -11,9 +11,9 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Name: " + name + " Surname: " + surname +
-                " Age: " + age + " Group: " + group +
-                " Gender: " + gender;
+        return "Name: " + name + "\nSurname: " + surname +
+                "\nAge: " + age + "\nGroup: " + group +
+                "\nGender: " + gender;
     }
 
     public String getName() {
